@@ -1,4 +1,26 @@
 header {
-  height: 1rem;
-  color: #888;
+  height: 5.1rem;
+  width: 100%;
+  background-color: #888;
+  position: fixed;
+  padding: 1.5rem ;
+  
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr; /* tres columnas: logo | nav | perfil */
+  align-items: center;
+  justify-content: center;
 }
+
+.nav-icons {
+  display: flex;
+  gap: 1rem;
+  justify-self: center;
+}
+
+.profile {
+  display: flex;
+  justify-items: center;
+  /*justify-self: end;*/
+}
+
+

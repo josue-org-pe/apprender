@@ -1,8 +1,10 @@
-function Profile ( {imgProfileSrc}, {username} ) {
+import React from "react"
+
+function Profile ( {imgProfileSrc, username} ) {
 
     return(
 
-        <div>
+        <div  className="profile">
             <div>
                 <img src={imgProfileSrc} alt="Img_profile" />
             </div>
@@ -15,4 +17,4 @@ function Profile ( {imgProfileSrc}, {username} ) {
 
 }
 
-export default Profile
+export default Profile;

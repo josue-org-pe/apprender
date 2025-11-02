@@ -1,4 +1,6 @@
-function Icon({alt}, {src}, {href}) {
+import React from "react"
+
+function Icon({alt, src, href}) {
 
     return(
 
@@ -10,4 +12,4 @@ function Icon({alt}, {src}, {href}) {
     
 }
 
-export default Icon
+export default Icon;
