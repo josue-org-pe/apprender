@@ -20,8 +20,7 @@ export function AuthProvider({ children }) {
   }, []);
 
   const login = async (username, password_not_used) => {
-    // In a real app, you'd validate the password against a backend.
-    // Here, we'll just check if the user exists in our "database" (localStorage).
+
     const storedUsers = localStorage.getItem('users');
     if (storedUsers) {
       const users = JSON.parse(storedUsers);
