@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom"
+
 function Icon({alt, src, href}) {
+    
 
     return(
 
         <div className="Icon">
-            <a href={href}><img src={src} alt={alt} /></a>
+            <Link to={href}><img src={src} alt={alt} /></Link>
         </div>
 
     )

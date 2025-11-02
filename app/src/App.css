@@ -30,4 +30,13 @@ main{
   align-items: center;
 }
 
-
+.content-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* dos columnas iguales */
+  gap: 2rem; /* espacio entre columnas */
+  width: 90%;
+  max-width: 1000px; /* evita que se estire demasiado */
+  margin-top: 2rem;
+  align-self: center;
+  justify-self: center;
+}
