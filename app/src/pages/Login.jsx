@@ -21,7 +21,8 @@ export default function Login() {
       alert("Inicio de sesión exitoso ");
 
       // 💾 Guardar sesión local
-      setUser(userDemo.email);
+      setUser({email});
+
 
       // 🚀 Redirigir a Home
       navigate("/home");

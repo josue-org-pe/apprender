@@ -5,11 +5,17 @@ import { UserContext } from "../contexts/UserProvider"
 
 function ProtectRoute({children}){
 
-    const {user} = useContext(UserContext)
+    const {user, loading} = useContext(UserContext)
+
+    if(loading){
+        return <div>Cargando...</div>
+    }
 
     if(!user){
         return <Navigate to={"/login"} replace/>
     }
+
+
 
     return children
 

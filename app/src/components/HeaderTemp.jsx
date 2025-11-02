@@ -26,7 +26,7 @@ function Header() {
                 <Icon  alt="Home" src="" href="" />
             </nav>
                 
-            <Profile username={user}/>
+            <Profile username={user?.email}/>
             
         </header>
 

@@ -14,8 +14,8 @@ function Home() {
   return (
     <>
       <HeaderTemp/>
-      <main style={{ padding: "30px", textAlign: "center" }}>
-        <h2>Bienvenido a tu espacio de aprendizaje 👋</h2>
+      <main>
+        <h2>Bienvenido {user.email} a tu espacio de aprendizaje 👋</h2>
         <p>
           Aquí verás tus cursos, materiales y actividades. ¡Prepárate para
           aprender!
