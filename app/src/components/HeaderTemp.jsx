@@ -1,5 +1,3 @@
-import React from "react"
-
 import Icon from "./Icon.jsx"
 import Profile from "./Profile.jsx"
 
