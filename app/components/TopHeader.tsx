@@ -55,8 +55,8 @@ const TopHeader: React.FC<TopHeaderProps> = ({ onMenuClick, currentPage, setCurr
       
       {/* Right side: User Profile */}
       <button onClick={() => setCurrentPage(Page.PROFILE)} className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-100 transition-colors">
-        <img src="https://picsum.photos/40/40" alt="User Avatar" className="w-8 h-8 rounded-full"/>
-        <span className="hidden sm:inline text-sm text-gray-700 font-medium">usuario@email.com</span>
+        <img src="https://m.media-amazon.com/images/I/51IOikk9tTL._AC_SL1000_.jpg" alt="User Avatar" className="w-8 h-8 rounded-full"/>
+        <span className="hidden sm:inline text-sm text-gray-700 font-medium">skiper@h.com</span>
       </button>
     </header>
   );

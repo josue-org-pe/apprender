@@ -12,7 +12,7 @@ const initialMeetings: Meeting[] = [
     course: 'Álgebra',
     time: '2024-07-25T18:00:00Z',
     participants: 3,
-    maxParticipants: 10,
+    maxParticipants: 30,
     host: 'Ana Martinez',
     link: 'https://meet.google.com/qwe-rty-uio',
   },

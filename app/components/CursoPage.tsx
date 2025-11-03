@@ -89,7 +89,6 @@ const CursoPage: React.FC<CursoPageProps> = ({ course, onBack, progress, onCompl
                     <p>
                         Por ejemplo, para la <strong>semana {selectedTopicIndex + 1}</strong>, podríamos tener una introducción al tema, seguida de ejemplos prácticos y una pequeña evaluación para comprobar el conocimiento adquirido.
                     </p>
-                    <img src={`https://picsum.photos/seed/${course.id}${selectedTopicIndex}/800/400`} alt="Placeholder" className="rounded-lg shadow-md" />
                     <blockquote>
                         La clave del éxito en {course.name} es la práctica constante y la resolución de problemas.
                     </blockquote>

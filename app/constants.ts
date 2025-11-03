@@ -10,6 +10,7 @@ export const COURSES_DATA: Course[] = [
       { id: 1, name: 'Semana 2: Ecuaciones lineales' },
       { id: 2, name: 'Semana 3: Factorización' },
       { id: 3, name: 'Semana 4: Sistemas de ecuaciones' },
+      { id: 4, name : 'Semana 5 : Programación Lineal'}
     ],
   },
   {

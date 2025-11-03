@@ -24,6 +24,7 @@ const HomePage: React.FC<HomePageProps> = ({ courses, progress, onSelectCourse }
     { name: 'Usuario (Tú)', score: 1980, avatar: 'https://picsum.photos/seed/user/40/40' },
     { name: 'Lana Roades', score: 1850, avatar: 'https://picsum.photos/seed/4/40/40' },
     { name: 'JPuff', score: 1700, avatar: 'https://picsum.photos/seed/5/40/40' },
+    { name: 'Skiper', score: 2, avatar: 'https://m.media-amazon.com/images/I/51IOikk9tTL._AC_SX679_.jpg' },
   ];
 
   const getMedal = (index: number) => {
