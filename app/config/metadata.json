@@ -1,4 +1,0 @@
-{
-  "name": "React Auth Flow",
-  "description": "A web application demonstrating a complete login and registration flow using React, TypeScript, and Tailwind CSS. It features routing and persists user sessions using local storage."
-}
