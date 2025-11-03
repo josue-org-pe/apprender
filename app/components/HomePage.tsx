@@ -22,7 +22,7 @@ const HomePage: React.FC<HomePageProps> = ({ courses, progress, onSelectCourse }
     { name: 'CDiego', score: 2300, avatar: 'https://picsum.photos/seed/2/40/40' },
     { name: 'Daniel Alcantara', score: 2150, avatar: 'https://picsum.photos/seed/3/40/40' },
     { name: 'Usuario (Tú)', score: 1980, avatar: 'https://picsum.photos/seed/user/40/40' },
-    { name: 'Lana Roades', score: 1850, avatar: 'https://picsum.photos/seed/4/40/40' },
+    { name: 'Blitz ', score: 1750, avatar: 'https://picsum.photos/seed/4/40/40' },
     { name: 'JPuff', score: 1700, avatar: 'https://picsum.photos/seed/5/40/40' },
     { name: 'Skiper', score: 2, avatar: 'https://m.media-amazon.com/images/I/51IOikk9tTL._AC_SX679_.jpg' },
   ];
